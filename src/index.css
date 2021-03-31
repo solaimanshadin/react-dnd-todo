@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+li svg{
+  display: none;
+  cursor: pointer;
+}
+
+li svg:active{
+color: brown;
+}
+
+
+li:hover svg{
+  display: block;
+}
